@@ -1,0 +1,12 @@
+# Exclude platform-specific boilerplate from language stats
+android/* linguist-vendored
+ios/* linguist-vendored
+windows/* linguist-vendored
+linux/* linguist-vendored
+macos/* linguist-vendored
+web/* linguist-vendored
+
+# Specifically target CMake and C++ build files
+*.cmake linguist-vendored
+*.cpp linguist-vendored
+*.h linguist-vendored
